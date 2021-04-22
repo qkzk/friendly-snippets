@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "prefix": "meta",
+    "body": "---\ntitle: \"Titre\"\nauthor: \"qkzk\"\ndate: \"\"\ntheme: \"metropolis\"\n geometry: \"margin=1.5cm\"\n\n---\n",
+    "description": "insert a meta"
+  },
+  "nsi": {
+    "prefix": "nsi",
+    "body": "---\ntitle: \"Titre\"\nsubtitle: \"\"\nauthor: \"qkzk\"\ndate: \"\"\ntheme: \"metropolis\"\ngeometry: \"margin=1.5cm\"\nheader-includes: |\n    \\usepackage{tcolorbox}\n    \\newtcolorbox{myquote}{colback=teal!10!white, colframe=teal!55!black}\n    \\renewenvironment{Shaded}{\\begin{myquote}}{\\end{myquote}}\n\n---\n",
+    "description": "insert a meta"
+  },
+  "cb": {
+    "prefix": "cb",
+    "body": "```\n\n```\n",
+    "description": "insert a code block"
+  },
+  "bp": {
+    "prefix": "bp",
+    "body": "```python\n\n```\n",
+    "description": "insert a Python code block"
+  }
+}

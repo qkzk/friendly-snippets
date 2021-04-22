@@ -20,108 +20,118 @@
 		"description": "\\dots"
 	},
 	"cdot": {
-		"prefix": "@.",
+		"prefix": "².",
 		"body": "\\cdot",
 		"description": "\\cdot"
 	},
 	"infinity": {
-		"prefix": "@8",
+		"prefix": "²8",
 		"body": "\\infty",
 		"description": "infinity symbol"
 	},
 	"partial": {
-		"prefix": "@6",
+		"prefix": "²6",
 		"body": "\\partial",
 		"description": "partial derivative symbol"
 	},
 	"fraction": {
-		"prefix": "@/",
+		"prefix": "fra",
 		"body": "\\frac{$1}{$2}$0",
 		"description": "fraction"
 	},
 	"fraction2": {
-		"prefix": "@%",
+		"prefix": "dfra",
+		"body": "\\dfrac{$1}{$2}$0",
+		"description": "display fraction"
+	},
+	"fraction3": {
+		"prefix": "²/",
+		"body": "\\frac{$1}{$2}$0",
+		"description": "fraction"
+	},
+	"fraction4": {
+		"prefix": "²%",
 		"body": "\\frac{$1}{$2}$0",
 		"description": "fraction"
 	},
 	"hat": {
-		"prefix": "@^",
+		"prefix": "²^",
 		"body": "\\hat{${1:${TM_SELECTED_TEXT}}}$0",
 		"description": "hat"
 	},
 	"bar": {
-		"prefix": "@_",
+		"prefix": "²_",
 		"body": "\\bar{${1:${TM_SELECTED_TEXT}}}$0",
 		"description": "bar"
 	},
 	"circ": {
-		"prefix": "@@",
+		"prefix": "²²",
 		"body": "\\circ",
 		"description": "circ"
 	},
 	"supcirc": {
-		"prefix": "@0",
+		"prefix": "²0",
 		"body": "^\\circ",
 		"description": "superscript circ"
 	},
 	"dot": {
-		"prefix": "@;",
+		"prefix": "²;",
 		"body": "\\dot{${1:${TM_SELECTED_TEXT}}}$0",
 		"description": "dot"
 	},
 	"ddot": {
-		"prefix": "@:",
+		"prefix": "²:",
 		"body": "\\ddot{${1:${TM_SELECTED_TEXT}}}$0",
 		"description": "ddot"
 	},
 
 	"equiv": {
-		"prefix": "@=",
+		"prefix": "²=",
 		"body": "\\equiv",
 		"description": "equiv symbol"
 	},
 	"times": {
-		"prefix": "@*",
+		"prefix": "²*",
 		"body": "\\times",
 		"description": "times symbol"
 	},
 	"leq": {
-		"prefix": "@<",
+		"prefix": "²<",
 		"body": "\\leq",
 		"description": "leq symbol"
 	},
 	"geq": {
-		"prefix": "@>",
+		"prefix": "²>",
 		"body": "\\geq",
 		"description": "geq symbol"
 	},
 	"sqrt": {
-		"prefix": "@2",
+		"prefix": "²2",
 		"body": "\\sqrt{${1:${TM_SELECTED_TEXT}}}$0",
 		"description": "sqrt command"
 	},
 	"int": {
-		"prefix": "@I",
+		"prefix": "²I",
 		"body": "\\int_{$1}^{$2}$0",
 		"description": "integral"
 	},
 	"Big|": {
-		"prefix": "@|",
+		"prefix": "²|",
 		"body": "\\Big|",
 		"description": "Big |"
 	},
 	"bigcup": {
-		"prefix": "@+",
+		"prefix": "²+",
 		"body": "\\bigcup",
 		"description": "bigcup"
 	},
 	"bigcap": {
-		"prefix": "@-",
+		"prefix": "²-",
 		"body": "\\bigcap",
 		"description": "bigcap"
 	},
 	"nonumber": {
-		"prefix": "@,",
+		"prefix": "²,",
 		"body": "\\nonumber",
 		"description": "nonumber"
 	},
@@ -171,6 +181,11 @@
 		"description": "itemize environment"
 	},
 	"enumerate": {
+		"prefix": "enum",
+		"body": "\\begin{enumerate}\n\t\\item ${0:${TM_SELECTED_TEXT}}\n\\end{enumerate}",
+		"description": "enumerate environment"
+	},
+	"enumerate2": {
 		"prefix": "BEN",
 		"body": "\\begin{enumerate}\n\t\\item ${0:${TM_SELECTED_TEXT}}\n\\end{enumerate}",
 		"description": "enumerate environment"
@@ -311,207 +326,207 @@
 		"description": "math typewriter font"
 	},
 	"alpha": {
-		"prefix": "@a",
+		"prefix": "²a",
 		"body": "\\alpha",
 		"description": "alpha"
 	},
 	"beta": {
-		"prefix": "@b",
+		"prefix": "²b",
 		"body": "\\beta",
 		"description": "beta"
 	},
 	"chi": {
-		"prefix": "@c",
+		"prefix": "²c",
 		"body": "\\chi",
 		"description": "chi"
 	},
 	"delta": {
-		"prefix": "@d",
+		"prefix": "²d",
 		"body": "\\delta",
 		"description": "delta"
 	},
 	"epsilon": {
-		"prefix": "@e",
+		"prefix": "²e",
 		"body": "\\epsilon",
 		"description": "epsilon"
 	},
 	"varepsilon": {
-		"prefix": "@ve",
+		"prefix": "²ve",
 		"body": "\\varepsilon",
 		"description": "varepsilon"
 	},
 	"phi": {
-		"prefix": "@f",
+		"prefix": "²f",
 		"body": "\\phi",
 		"description": "phi"
 	},
 	"varphi": {
-		"prefix": "@vf",
+		"prefix": "²vf",
 		"body": "\\varphi",
 		"description": "varphi"
 	},
 	"gamma": {
-		"prefix": "@g",
+		"prefix": "²g",
 		"body": "\\gamma",
 		"description": "gamma"
 	},
 	"eta": {
-		"prefix": "@h",
+		"prefix": "²h",
 		"body": "\\eta",
 		"description": "eta"
 	},
 	"iota": {
-		"prefix": "@i",
+		"prefix": "²i",
 		"body": "\\iota",
 		"description": "iota"
 	},
 	"kappa": {
-		"prefix": "@k",
+		"prefix": "²k",
 		"body": "\\kappa",
 		"description": "kappa"
 	},
 	"lambda": {
-		"prefix": "@l",
+		"prefix": "²l",
 		"body": "\\lambda",
 		"description": "lambda"
 	},
 	"mu": {
-		"prefix": "@m",
+		"prefix": "²m",
 		"body": "\\mu",
 		"description": "mu"
 	},
 	"nu": {
-		"prefix": "@n",
+		"prefix": "²n",
 		"body": "\\nu",
 		"description": "nu"
 	},
 	"pi": {
-		"prefix": "@p",
+		"prefix": "²p",
 		"body": "\\pi",
 		"description": "pi"
 	},
 	"theta": {
-		"prefix": "@q",
+		"prefix": "²q",
 		"body": "\\theta",
 		"description": "theta"
 	},
 	"vartheta": {
-		"prefix": "@vq",
+		"prefix": "²vq",
 		"body": "\\vartheta",
 		"description": "vartheta"
 	},
 	"rho": {
-		"prefix": "@r",
+		"prefix": "²r",
 		"body": "\\rho",
 		"description": "rho"
 	},
 	"sigma": {
-		"prefix": "@s",
+		"prefix": "²s",
 		"body": "\\sigma",
 		"description": "sigma"
 	},
 	"varsigma": {
-		"prefix": "@vs",
+		"prefix": "²vs",
 		"body": "\\varsigma",
 		"description": "varsigma"
 	},
 	"tau": {
-		"prefix": "@t",
+		"prefix": "²t",
 		"body": "\\tau",
 		"description": "tau"
 	},
 	"upsilon": {
-		"prefix": "@u",
+		"prefix": "²u",
 		"body": "\\upsilon",
 		"description": "upsilon"
 	},
 	"omega": {
-		"prefix": "@o",
+		"prefix": "²o",
 		"body": "\\omega",
 		"description": "omega"
 	},
 	"wedge": {
-		"prefix": "@&",
+		"prefix": "²&",
 		"body": "\\wedge",
 		"description": "wedge"
 	},
 	"xi": {
-		"prefix": "@x",
+		"prefix": "²x",
 		"body": "\\xi",
 		"description": "xi"
 	},
 	"psi": {
-		"prefix": "@y",
+		"prefix": "²y",
 		"body": "\\psi",
 		"description": "psi"
 	},
 	"zeta": {
-		"prefix": "@z",
+		"prefix": "²z",
 		"body": "\\zeta",
 		"description": "zeta"
 	},
 	"Delta": {
-		"prefix": "@D",
+		"prefix": "²D",
 		"body": "\\Delta",
 		"description": "Delta"
 	},
 	"Phi": {
-		"prefix": "@F",
+		"prefix": "²F",
 		"body": "\\Phi",
 		"description": "Phi"
 	},
 	"Gamma": {
-		"prefix": "@G",
+		"prefix": "²G",
 		"body": "\\Gamma",
 		"description": "Gamma"
 	},
 	"Theta": {
-		"prefix": "@Q",
+		"prefix": "²Q",
 		"body": "\\Theta",
 		"description": "Theta"
 	},
 	"Lambda": {
-		"prefix": "@L",
+		"prefix": "²L",
 		"body": "\\Lambda",
 		"description": "Lambda"
 	},
 	"Xi": {
-		"prefix": "@X",
+		"prefix": "²X",
 		"body": "\\Xi",
 		"description": "Xi"
 	},
 	"Psi": {
-		"prefix": "@Y",
+		"prefix": "²Y",
 		"body": "\\Psi",
 		"description": "Psi"
 	},
 	"Sigma": {
-		"prefix": "@S",
+		"prefix": "²S",
 		"body": "\\Sigma",
 		"description": "Sigma"
 	},
 	"Upsilon": {
-		"prefix": "@U",
+		"prefix": "²U",
 		"body": "\\Upsilon",
 		"description": "Upsilon"
 	},
 	"Omega": {
-		"prefix": "@W",
+		"prefix": "²W",
 		"body": "\\Omega",
 		"description": "Omega"
 	},
 	"(": {
-		"prefix": "@(",
+		"prefix": "²(",
 		"body": "\\left( ${1:${TM_SELECTED_TEXT}} \\right)",
 		"description": "left( ... right)"
 	},
 	"{": {
-		"prefix": "@{",
+		"prefix": "²{",
 		"body": "\\left\\{ ${1:${TM_SELECTED_TEXT}} \\right\\\\}",
 		"description": "left{ ... right}"
 	},
 	"[": {
-		"prefix": "@[",
+		"prefix": "²[",
 		"body": "\\left[ ${1:${TM_SELECTED_TEXT}} \\right]",
 		"description": "left[ ... right]"
 	},
